@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('/abc.txt', (err, data) => {
+fs.readFile('./abc.txt', (err, data) => {
     if (err) {
         console.error("System Error:", err.message);
         return;
